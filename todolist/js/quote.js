@@ -28,16 +28,16 @@ const quotes = [
         author: " - k.tolnoe",
     },
     {
-        quote: "What is life, Without a little rist.",
+        quote: "What is life, Without a little risk.",
         author: " - J.K.Roling",
     },
     {
-        quote: "This is just the way i am.",
-        author: " - LANY",
+        quote: "A person who never made a mistake never tried anything new",
+        author: " - Albert Einstein",
     },
     {
-        quote: "I like me better when I'm with you.",
-        author: " - Lauv",
+        quote: "Knowing yourself is the beginning of all wisdom.",
+        author: " - Aristotle",
     },
 ]
 const quote = document.querySelector("#quote span:first-child");
