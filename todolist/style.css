@@ -31,7 +31,7 @@ input {
 }
 
 input::placeholder {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
 }
 input[type="submit"] {
     outline: 1px solid white;  
@@ -47,10 +47,10 @@ input:focus{
 }
 #todo-list{
     text-align: left;  
-    margin-left: 40px;
+    margin-left: 10%;
  }
 h2 {    
-    font-size: 80px;
+    font-size: 50px;
     margin: 50px;   
     z-index: 2;
 }
@@ -72,7 +72,7 @@ button {
     cursor: pointer;
 }
 h3{
-    margin-left: 60px;
+    margin-left: 12%;
     text-align: left;
     text-transform:capitalize;
 }
