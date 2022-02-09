@@ -1,9 +1,9 @@
 body{    
     color: azure;  
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.hidden {
-    
+.hidden {    
     display: none;
 }
 
@@ -17,16 +17,18 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:80%;
+    filter: brightness(80%);
 }
 input {    
     text-align: center;
     background: none;
     color: white;    
-    font-size: 20px;
+    font-size: 25px;
     border: 0;
     outline: 0;
-    border-bottom: 2px solid white;    
-    margin-bottom: 20px; 
+    border-bottom: 2px solid white;  
+    margin-bottom: 30px;
+    margin-top: 40px; 
 
 }
 
@@ -39,31 +41,35 @@ input[type="submit"] {
     cursor: pointer;
   }
 input:focus{
-    border-color: rgba(246, 250, 248, 0.404);
+    border-color: rgba(255, 255, 255, 0.4);
     outline:none;
 }
 #todo-form input{
-    width: 280px;
+    font-size: 22px;
+    margin-top: 10px; 
+    width: 300px;
 }
 #todo-list{
     text-align: left;  
     margin-left: 10%;
  }
-h2 {    
-    font-size: 50px;
-    margin: 50px;   
-    z-index: 2;
+h3 {        
+    text-align: left;  
+    margin: 30px;  
+    font-family: 'Courier New', Courier, monospace; 
 }
 
-.quote {    
-    
-    bottom: 0;    
+.quote {                
     margin-top: 100px;
     height: 100px;
     width: 100%;    
+    
 }
 ul,li {
+    margin-left: 3%;
+    margin-right: 5%;
     margin-top: 10px;
+    font-size: large;
 }
 button {    
     background: none;
@@ -71,8 +77,9 @@ button {
     outline: 0;
     cursor: pointer;
 }
-h3{
+#listname{
     margin-left: 12%;
     text-align: left;
-    text-transform:capitalize;
+    text-transform:capitalize;   
+     
 }
